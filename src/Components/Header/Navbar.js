@@ -1,6 +1,5 @@
 import "../../Styles/Navbar.css";
 import * as React from "react";
-// import PropTypes from 'prop-types';
 import { NavLink } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -8,13 +7,9 @@ import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import List from "@mui/material/List";
-// import ListItem from '@mui/material/ListItem';
-// import ListItemButton from '@mui/material/ListItemButton';
-// import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-// import Button from '@mui/material/Button';
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 const drawerWidth = 240;
@@ -27,7 +22,7 @@ const logoTheme = createTheme({
 });
 
 function Navbar(props) {
-  //   const { window } = props;
+  
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -119,12 +114,11 @@ function Navbar(props) {
         </ThemeProvider>
         <Box component="nav">
           <Drawer
-            //   container={container}
             variant="temporary"
             open={mobileOpen}
             onClose={handleDrawerToggle}
-            ModalProps={{
-              keepMounted: true, // Better open performance on mobile.
+            ModalProps={{      // for small Screens like mobile view
+              keepMounted: true, 
             }}
             sx={{
               display: { xs: "block", sm: "none" },
