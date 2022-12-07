@@ -1,3 +1,4 @@
+//creating actionTypes which can be further imported as variable names
 export const SELECTTEMPLATE = "SELECTTEMPLATE";
 export const SELECTRESUME = "SELECTRESUME";
 export const ADDPERSONALINFO = "ADDPERSONALINFO";

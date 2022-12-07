@@ -8,10 +8,12 @@ import { connect } from "react-redux";
 import { addEducation } from "../Redux/actions";
 import { useForm, Controller } from "react-hook-form";
 
+//selecting the part of the data from the store 
 const mapStateToProps = (state) => ({
   educationInfo: state.educationDetailsReducer.educationInfo,
 });
 
+// to specify which actions your component might need to dispatch
 const mapDispatchToProps = (dispatch) => ({
   onAddEducation: (details) => dispatch(addEducation(details)),
 });
@@ -171,5 +173,5 @@ const EducationComponent = (props) => {
     </Paper>
   );
 };
-
+//connect method react-redux for connecting to the store
 export default connect(mapStateToProps, mapDispatchToProps)(EducationComponent);

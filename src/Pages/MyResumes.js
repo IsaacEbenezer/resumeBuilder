@@ -29,10 +29,12 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
+//selecting the part of the data from the store 
 const mapStateToProps = (state) => ({
   selectedTemplateId: state.selectedTemplateReducer.selectedTemplateId,
 });
 
+// to specify which actions your component might need to dispatch
 const mapDispatchToProps = (dispatch) => ({
   setSelectedTemplateId: (id) => dispatch(selectTemplate(id)),
   setSelectedResumeId: (id) => dispatch(selectResume(id)),
@@ -189,5 +191,5 @@ const MyResumes = (props) => {
     </>
   );
 };
-
+//connect method react-redux for connecting to the store
 export default connect(mapStateToProps, mapDispatchToProps)(MyResumes);

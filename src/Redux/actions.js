@@ -1,5 +1,6 @@
 import * as actionTypes from "./actionTypes";
 
+//creating actions for each field
 export const selectTemplate = (id) => ({
   type: actionTypes.SELECTTEMPLATE,
   payload: id,

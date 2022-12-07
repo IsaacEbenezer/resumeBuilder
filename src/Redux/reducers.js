@@ -1,5 +1,5 @@
 import * as actionTypes from "./actionTypes";
-
+//creating initial states for all the fields
 const initialSelectedTemplateState = {
   selectedTemplateId: null,
   selectedResumeId: null,
@@ -45,7 +45,7 @@ const initialEducationState = {
 const initialSkillsState = {
   skills: ["", "", ""],
 };
-
+//creating reducers which contains current state and actions
 export const selectedTemplateReducer = (
   state = initialSelectedTemplateState,
   action

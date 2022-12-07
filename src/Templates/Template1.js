@@ -9,7 +9,7 @@ import EducationTemplate from "../Components/EducationTemplate";
 import KeySkillTemplate from "../Components/KeySkillTemplate";
 
 const Template1 = (props) => {
-
+  //getting data of user through the input if exists or else from the dummy data in data.js
   const personalinfo = props.personalinfo
     ? props.personalinfo
     : data.personal_info;

@@ -8,10 +8,12 @@ import { connect } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { selectTemplate } from "../Redux/actions";
 
+// for selecting the part of the data from the store 
 const mapStateToProps = (state) => ({
   selectedTemplateId: state.selectedTemplateReducer.selectedTemplateId,
 });
 
+// to specify which actions your component might need to dispatch
 const mapDispatchToProps = (dispatch) => ({
   setSelectedTemplateId: (id) => dispatch(selectTemplate(id)),
 });
@@ -74,5 +76,5 @@ const Home = (props) => {
     </>
   );
 };
-
+//connect method react-redux for connecting to the store
 export default connect(mapStateToProps, mapDispatchToProps)(Home);

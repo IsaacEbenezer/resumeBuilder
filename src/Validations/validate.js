@@ -1,3 +1,4 @@
+// creation of  validation
 export const validate = (type, name) => {
   if (type === "text") {
     return { required: "*Required" };
@@ -5,6 +6,7 @@ export const validate = (type, name) => {
     return {
       required: "*Required",
       pattern:
+      //using regex for validation
         /^[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$/,
     };
   } else if (type === "number") {

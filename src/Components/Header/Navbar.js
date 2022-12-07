@@ -22,7 +22,7 @@ const logoTheme = createTheme({
 });
 
 function Navbar(props) {
-  
+  //for small screens
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
