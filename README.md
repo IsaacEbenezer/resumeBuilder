@@ -14,10 +14,12 @@
 
 ### pages
 this app has 4 pages
-1.home
-2.myResumes
-3.detailsfilling
-4.aboutus
+<ol>
+<li>home</li>
+<li>myResumes</li>
+<li>detailsfilling</li>
+<li>aboutus</li>
+</ol>
 ### Libraries and Technologies Used
 <dl>
   <dt>1.React.js</dt>
