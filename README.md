@@ -1,70 +1,45 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Resume Builder
+## This project lets you build your resumes with specified Templates
 
-## Available Scripts
+## Intro to resume-builder
+<ul>
+<li>This app helps user to build resumes for students as well as working employees</li>
+<li>It is fully responsive, once user creates the resume user can be able to save it in the local computer</li>
+<li>for now user got 2 templates to select the design of resume</li>
+<li>after creating the resume user can check the them in myresumes page and can even edit that if they find any mistake</li>
+<li>User can delete the resume</li>
+<li>user can download the resume</li>
+</ul>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### pages
+this app has 4 pages
+1.home
+2.myResumes
+3.detailsfilling
+4.aboutus
+### Libraries and Technologies Used
+<dl>
+  <dt>1.React.js</dt>
+  <dd>The React. js framework is an open-source JavaScript framework and library developed by Facebook. It's used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.</dd>
+  
+  <dt>2.Material UI</dt>
+  <dd>Material UI is an open-source React component library that implements Google's Material Design. It includes a comprehensive collection of prebuilt components that are ready for use in production right out of the box.</dd>
+  
+   <dt>3.Redux</dt>
+  <dd>Redux is a predictable state container designed to help you write JavaScript apps that behave consistently across client, server, and native environments, and are easy to test. While it's mostly used as a state management tool with React.</dd>
+  
+   <dt>4.react-router-dom</dt>
+  <dd>React Router DOM is an npm package that enables you to implement dynamic routing in a web app. </dd>
+  
+   <dt>5.React-hook-form</dt>
+  <dd>React Hook Form is a library that helps you validate forms in React.</dd>
+  
+   <dt>6.jspdf</dt>
+  <dd>JSPDF is an open-source library for generating PDF documents using nothing but JavaScript. It uses various functions to create various elements of PDF pages.</dd>
+  
+   <dt>7.React-avatar-edit</dt>
+  <dd>ReactJS component to upload, crop, and preview avatars.</dd>
+</dl>
+<p>click below to navigate to the app </p>
+ <a href = "https://letsresume-builder.netlify.app/">deployment Link</a>
