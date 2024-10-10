@@ -1,6 +1,6 @@
 
 # Resume Builder
-## This project lets you build your resumes with specified Templates
+## This project lets you build your resumes with specified templates
 
 ## Intro to resume-builder
 <ul>
